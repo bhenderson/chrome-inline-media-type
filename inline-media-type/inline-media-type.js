@@ -53,7 +53,7 @@
             responseHeaders: details.responseHeaders
         };
     }, {
-        urls: ['<all_urls>'],
+        urls: ['http://*/*'],
         types: ['main_frame', 'sub_frame']
     }, ['blocking', 'responseHeaders']);
 }());
